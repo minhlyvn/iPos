@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2AAEA3F19BA24CD00AACEDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AAEA3E19BA24CD00AACEDD /* Foundation.framework */; };
+		C2AAEA4419BA24CD00AACEDD /* IPUIModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2AAEA4319BA24CD00AACEDD /* IPUIModel.h */; };
+		C2AAEA4619BA24CD00AACEDD /* IPUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AAEA4519BA24CD00AACEDD /* IPUIModel.m */; };
+		C2AAEA4D19BA24CD00AACEDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AAEA4C19BA24CD00AACEDD /* XCTest.framework */; };
+		C2AAEA4E19BA24CD00AACEDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AAEA3E19BA24CD00AACEDD /* Foundation.framework */; };
+		C2AAEA5319BA24CD00AACEDD /* libIPUIModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AAEA3B19BA24CD00AACEDD /* libIPUIModel.a */; };
+		C2AAEA5919BA24CD00AACEDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2AAEA5719BA24CD00AACEDD /* InfoPlist.strings */; };
+		C2AAEA5B19BA24CD00AACEDD /* IPUIModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AAEA5A19BA24CD00AACEDD /* IPUIModelTests.m */; };
+		C2AAEA7419BA24F800AACEDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2AAEA7219BA24F800AACEDD /* InfoPlist.strings */; };
+		C2AAEACA19BA257600AACEDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AAEAC919BA257600AACEDD /* UIKit.framework */; };
+		C2AAEACC19BA25DD00AACEDD /* TVPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AAEACB19BA25DD00AACEDD /* TVPageView.xib */; };
+		C2AAEAD219BA29E600AACEDD /* TVPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AAEAD119BA29E600AACEDD /* TVPageView.m */; };
+		C2AAEAD319BA2A3B00AACEDD /* IPUIModelBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2AAEA6819BA24F800AACEDD /* IPUIModelBundle.bundle */; };
+		C2B8E2D419BA393400351E85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AAEA3E19BA24CD00AACEDD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2AAEA5119BA24CD00AACEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2AAEA3319BA24CD00AACEDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AAEA3A19BA24CD00AACEDD;
+			remoteInfo = IPUIModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2AAEA3919BA24CD00AACEDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C2AAEAD319BA2A3B00AACEDD /* IPUIModelBundle.bundle in CopyFiles */,
+				C2AAEA4419BA24CD00AACEDD /* IPUIModel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2AAEA3B19BA24CD00AACEDD /* libIPUIModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIPUIModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AAEA3E19BA24CD00AACEDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2AAEA4219BA24CD00AACEDD /* IPUIModel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPUIModel-Prefix.pch"; sourceTree = "<group>"; };
+		C2AAEA4319BA24CD00AACEDD /* IPUIModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPUIModel.h; sourceTree = "<group>"; };
+		C2AAEA4519BA24CD00AACEDD /* IPUIModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPUIModel.m; sourceTree = "<group>"; };
+		C2AAEA4B19BA24CD00AACEDD /* IPUIModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPUIModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AAEA4C19BA24CD00AACEDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2AAEA5619BA24CD00AACEDD /* IPUIModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPUIModelTests-Info.plist"; sourceTree = "<group>"; };
+		C2AAEA5819BA24CD00AACEDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2AAEA5A19BA24CD00AACEDD /* IPUIModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPUIModelTests.m; sourceTree = "<group>"; };
+		C2AAEA6819BA24F800AACEDD /* IPUIModelBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPUIModelBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AAEA6C19BA24F800AACEDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2AAEA6D19BA24F800AACEDD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2AAEA6E19BA24F800AACEDD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C2AAEA7119BA24F800AACEDD /* IPUIModelBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPUIModelBundle-Info.plist"; sourceTree = "<group>"; };
+		C2AAEA7319BA24F800AACEDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2AAEA7519BA24F800AACEDD /* IPUIModelBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPUIModelBundle-Prefix.pch"; sourceTree = "<group>"; };
+		C2AAEAC919BA257600AACEDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2AAEACB19BA25DD00AACEDD /* TVPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TVPageView.xib; sourceTree = "<group>"; };
+		C2AAEAD019BA29E600AACEDD /* TVPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVPageView.h; sourceTree = "<group>"; };
+		C2AAEAD119BA29E600AACEDD /* TVPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVPageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2AAEA3819BA24CD00AACEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AAEACA19BA257600AACEDD /* UIKit.framework in Frameworks */,
+				C2AAEA3F19BA24CD00AACEDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AAEA4819BA24CD00AACEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AAEA5319BA24CD00AACEDD /* libIPUIModel.a in Frameworks */,
+				C2AAEA4D19BA24CD00AACEDD /* XCTest.framework in Frameworks */,
+				C2AAEA4E19BA24CD00AACEDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AAEA6519BA24F800AACEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B8E2D419BA393400351E85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2AAEA3219BA24CD00AACEDD = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA4019BA24CD00AACEDD /* IPUIModel */,
+				C2AAEA5419BA24CD00AACEDD /* IPUIModelTests */,
+				C2AAEA6F19BA24F800AACEDD /* IPUIModelBundle */,
+				C2AAEA3D19BA24CD00AACEDD /* Frameworks */,
+				C2AAEA3C19BA24CD00AACEDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2AAEA3C19BA24CD00AACEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA3B19BA24CD00AACEDD /* libIPUIModel.a */,
+				C2AAEA4B19BA24CD00AACEDD /* IPUIModelTests.xctest */,
+				C2AAEA6819BA24F800AACEDD /* IPUIModelBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2AAEA3D19BA24CD00AACEDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEAC919BA257600AACEDD /* UIKit.framework */,
+				C2AAEA3E19BA24CD00AACEDD /* Foundation.framework */,
+				C2AAEA4C19BA24CD00AACEDD /* XCTest.framework */,
+				C2AAEA6B19BA24F800AACEDD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2AAEA4019BA24CD00AACEDD /* IPUIModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA4319BA24CD00AACEDD /* IPUIModel.h */,
+				C2AAEA4519BA24CD00AACEDD /* IPUIModel.m */,
+				C2AAEAD019BA29E600AACEDD /* TVPageView.h */,
+				C2AAEAD119BA29E600AACEDD /* TVPageView.m */,
+				C2AAEA4119BA24CD00AACEDD /* Supporting Files */,
+			);
+			path = IPUIModel;
+			sourceTree = "<group>";
+		};
+		C2AAEA4119BA24CD00AACEDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA4219BA24CD00AACEDD /* IPUIModel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2AAEA5419BA24CD00AACEDD /* IPUIModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA5A19BA24CD00AACEDD /* IPUIModelTests.m */,
+				C2AAEA5519BA24CD00AACEDD /* Supporting Files */,
+			);
+			path = IPUIModelTests;
+			sourceTree = "<group>";
+		};
+		C2AAEA5519BA24CD00AACEDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA5619BA24CD00AACEDD /* IPUIModelTests-Info.plist */,
+				C2AAEA5719BA24CD00AACEDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2AAEA6B19BA24F800AACEDD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA6C19BA24F800AACEDD /* Foundation.framework */,
+				C2AAEA6D19BA24F800AACEDD /* CoreData.framework */,
+				C2AAEA6E19BA24F800AACEDD /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C2AAEA6F19BA24F800AACEDD /* IPUIModelBundle */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA7019BA24F800AACEDD /* Supporting Files */,
+				C2AAEACB19BA25DD00AACEDD /* TVPageView.xib */,
+			);
+			path = IPUIModelBundle;
+			sourceTree = "<group>";
+		};
+		C2AAEA7019BA24F800AACEDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAEA7119BA24F800AACEDD /* IPUIModelBundle-Info.plist */,
+				C2AAEA7219BA24F800AACEDD /* InfoPlist.strings */,
+				C2AAEA7519BA24F800AACEDD /* IPUIModelBundle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2AAEA3A19BA24CD00AACEDD /* IPUIModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AAEA5E19BA24CD00AACEDD /* Build configuration list for PBXNativeTarget "IPUIModel" */;
+			buildPhases = (
+				C2AAEA3719BA24CD00AACEDD /* Sources */,
+				C2AAEA3819BA24CD00AACEDD /* Frameworks */,
+				C2AAEA3919BA24CD00AACEDD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPUIModel;
+			productName = IPUIModel;
+			productReference = C2AAEA3B19BA24CD00AACEDD /* libIPUIModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2AAEA4A19BA24CD00AACEDD /* IPUIModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AAEA6119BA24CD00AACEDD /* Build configuration list for PBXNativeTarget "IPUIModelTests" */;
+			buildPhases = (
+				C2AAEA4719BA24CD00AACEDD /* Sources */,
+				C2AAEA4819BA24CD00AACEDD /* Frameworks */,
+				C2AAEA4919BA24CD00AACEDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2AAEA5219BA24CD00AACEDD /* PBXTargetDependency */,
+			);
+			name = IPUIModelTests;
+			productName = IPUIModelTests;
+			productReference = C2AAEA4B19BA24CD00AACEDD /* IPUIModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2AAEA6719BA24F800AACEDD /* IPUIModelBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AAEA7619BA24F800AACEDD /* Build configuration list for PBXNativeTarget "IPUIModelBundle" */;
+			buildPhases = (
+				C2AAEA6419BA24F800AACEDD /* Sources */,
+				C2AAEA6519BA24F800AACEDD /* Frameworks */,
+				C2AAEA6619BA24F800AACEDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPUIModelBundle;
+			productName = IPUIModelBundle;
+			productReference = C2AAEA6819BA24F800AACEDD /* IPUIModelBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2AAEA3319BA24CD00AACEDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = cscv;
+			};
+			buildConfigurationList = C2AAEA3619BA24CD00AACEDD /* Build configuration list for PBXProject "IPUIModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2AAEA3219BA24CD00AACEDD;
+			productRefGroup = C2AAEA3C19BA24CD00AACEDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2AAEA3A19BA24CD00AACEDD /* IPUIModel */,
+				C2AAEA4A19BA24CD00AACEDD /* IPUIModelTests */,
+				C2AAEA6719BA24F800AACEDD /* IPUIModelBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2AAEA4919BA24CD00AACEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AAEA5919BA24CD00AACEDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AAEA6619BA24F800AACEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AAEA7419BA24F800AACEDD /* InfoPlist.strings in Resources */,
+				C2AAEACC19BA25DD00AACEDD /* TVPageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2AAEA3719BA24CD00AACEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AAEA4619BA24CD00AACEDD /* IPUIModel.m in Sources */,
+				C2AAEAD219BA29E600AACEDD /* TVPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AAEA4719BA24CD00AACEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AAEA5B19BA24CD00AACEDD /* IPUIModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AAEA6419BA24F800AACEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2AAEA5219BA24CD00AACEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2AAEA3A19BA24CD00AACEDD /* IPUIModel */;
+			targetProxy = C2AAEA5119BA24CD00AACEDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2AAEA5719BA24CD00AACEDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AAEA5819BA24CD00AACEDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2AAEA7219BA24F800AACEDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AAEA7319BA24F800AACEDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2AAEA5C19BA24CD00AACEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2AAEA5D19BA24CD00AACEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2AAEA5F19BA24CD00AACEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IPUIModel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPUIModel/IPUIModel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2AAEA6019BA24CD00AACEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IPUIModel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPUIModel/IPUIModel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2AAEA6219BA24CD00AACEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPUIModel/IPUIModel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IPUIModelTests/IPUIModelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2AAEA6319BA24CD00AACEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPUIModel/IPUIModel-Prefix.pch";
+				INFOPLIST_FILE = "IPUIModelTests/IPUIModelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		C2AAEA7719BA24F800AACEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPUIModelBundle/IPUIModelBundle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IPUIModelBundle/IPUIModelBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C2AAEA7819BA24F800AACEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPUIModelBundle/IPUIModelBundle-Prefix.pch";
+				INFOPLIST_FILE = "IPUIModelBundle/IPUIModelBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2AAEA3619BA24CD00AACEDD /* Build configuration list for PBXProject "IPUIModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AAEA5C19BA24CD00AACEDD /* Debug */,
+				C2AAEA5D19BA24CD00AACEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AAEA5E19BA24CD00AACEDD /* Build configuration list for PBXNativeTarget "IPUIModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AAEA5F19BA24CD00AACEDD /* Debug */,
+				C2AAEA6019BA24CD00AACEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AAEA6119BA24CD00AACEDD /* Build configuration list for PBXNativeTarget "IPUIModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AAEA6219BA24CD00AACEDD /* Debug */,
+				C2AAEA6319BA24CD00AACEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AAEA7619BA24F800AACEDD /* Build configuration list for PBXNativeTarget "IPUIModelBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AAEA7719BA24F800AACEDD /* Debug */,
+				C2AAEA7819BA24F800AACEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2AAEA3319BA24CD00AACEDD /* Project object */;
+}
