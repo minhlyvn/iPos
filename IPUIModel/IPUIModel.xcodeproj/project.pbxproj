@@ -21,6 +21,7 @@
 		C2AAEAD219BA29E600AACEDD /* TVPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AAEAD119BA29E600AACEDD /* TVPageView.m */; };
 		C2AAEAD319BA2A3B00AACEDD /* IPUIModelBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2AAEA6819BA24F800AACEDD /* IPUIModelBundle.bundle */; };
 		C2B8E2D419BA393400351E85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AAEA3E19BA24CD00AACEDD /* Foundation.framework */; };
+		C2F2C26019C3603A00613E74 /* UIModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F2C25F19C3603A00613E74 /* UIModelManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		C2AAEACB19BA25DD00AACEDD /* TVPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TVPageView.xib; sourceTree = "<group>"; };
 		C2AAEAD019BA29E600AACEDD /* TVPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVPageView.h; sourceTree = "<group>"; };
 		C2AAEAD119BA29E600AACEDD /* TVPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVPageView.m; sourceTree = "<group>"; };
+		C2F2C25E19C3603A00613E74 /* UIModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIModelManager.h; sourceTree = "<group>"; };
+		C2F2C25F19C3603A00613E74 /* UIModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIModelManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,7 @@
 		C2AAEA4019BA24CD00AACEDD /* IPUIModel */ = {
 			isa = PBXGroup;
 			children = (
+				C2F2C25D19C3601D00613E74 /* UIModelEntity */,
 				C2AAEA4319BA24CD00AACEDD /* IPUIModel.h */,
 				C2AAEA4519BA24CD00AACEDD /* IPUIModel.m */,
 				C2AAEAD019BA29E600AACEDD /* TVPageView.h */,
@@ -200,6 +204,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		C2F2C25D19C3601D00613E74 /* UIModelEntity */ = {
+			isa = PBXGroup;
+			children = (
+				C2F2C25E19C3603A00613E74 /* UIModelManager.h */,
+				C2F2C25F19C3603A00613E74 /* UIModelManager.m */,
+			);
+			path = UIModelEntity;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -311,6 +324,7 @@
 			files = (
 				C2AAEA4619BA24CD00AACEDD /* IPUIModel.m in Sources */,
 				C2AAEAD219BA29E600AACEDD /* TVPageView.m in Sources */,
+				C2F2C26019C3603A00613E74 /* UIModelManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

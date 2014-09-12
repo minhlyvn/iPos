@@ -5,41 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2D839F8D-A408-4E6F-AF2A-536BE9E739F6</string>
+	<string>BED29A80-30A2-4268-B992-5F0DA50912F1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>IPUIModel</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>12B6DCCC-C8ED-4BED-ACD9-009368769661</key>
-		<string>https://cscvieae520537.vdc.csc.com/svn/iPOSMobile/Implementation/Main</string>
+		<key>768AF040-2B63-497B-8E50-058DC5CD5D2A</key>
+		<string>https://github.com/minhlyvn/iPos.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>IPUIModel/IPUIModel.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>12B6DCCC-C8ED-4BED-ACD9-009368769661</key>
+		<key>768AF040-2B63-497B-8E50-058DC5CD5D2A</key>
 		<string>../../..</string>
 	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>12B6DCCC-C8ED-4BED-ACD9-009368769661</key>
-		<string>https://cscvieae520537.vdc.csc.com/svn/iPOSMobile</string>
-	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://cscvieae520537.vdc.csc.com/svn/iPOSMobile/Implementation/Main/IPUIModel/IPUIModel.xcodeproj</string>
+	<string>https://github.com/minhlyvn/iPos.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>12B6DCCC-C8ED-4BED-ACD9-009368769661</string>
+	<string>768AF040-2B63-497B-8E50-058DC5CD5D2A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>12B6DCCC-C8ED-4BED-ACD9-009368769661</string>
+			<string>768AF040-2B63-497B-8E50-058DC5CD5D2A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iPOSMobile</string>
+			<string>iPos</string>
 		</dict>
 	</array>
 </dict>
